@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link rel="stylesheet" href="page2-style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Finger+Paint&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@400..700&family=Finger+Paint&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <h1>Tic Tac Toe</h1>
+
+    <div id="board">
+        <div class="boxes" id="0"></div>
+        <div class="boxes" id="1"></div>
+        <div class="boxes" id="2"></div>
+        <div class="boxes" id="3"></div>
+        <div class="boxes" id="4"></div>
+        <div class="boxes" id="5"></div>
+        <div class="boxes" id="6"></div>
+        <div class="boxes" id="7"></div>
+        <div class="boxes" id="8"></div>
+    </div>
+
+    <div id="players">
+        <div class="p-board">
+            <div class="s-board" id="p1-board">
+                <p class="p">X</p>
+                <p id="s1">0</p>
+            </div>
+            <div class="name">
+                <h3 id="name_p1">Player1</h3>
+           </div>
+        </div>
+        <div class="p-board">
+            <div class="s-board" id="p2-board">
+                <p class="p">O</p>
+                <p id="s2">0</p>
+            </div>
+            <div class="name">
+                <h3 id="name_p2">Player2</h3>
+           </div>
+        </div>
+    </div>
+
+    <div id="result"></div>
+
+    <div class="btn">
+        <button id="restart">Restart</button>
+        <button id="play-again">Play Again</button>
+    </div>
+    <script src="page2-script.js"></script>
+</body>
+</html>

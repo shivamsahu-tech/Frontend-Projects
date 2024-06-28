@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="page1-style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Finger+Paint&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@400..700&family=Finger+Paint&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="content">
+        <h2>WelCome</h2>
+        <h5>To</h5>
+        <h3>Tic Tac Toe</h3>
+    </div>
+
+    <div id="player-info">
+        <h4>Enter Player's Name:</h3>
+        <div id="p1">
+            <p>X</p>
+            <input type="text" id="player1" placeholder="Player 1">
+        </div>
+        <div id="p2">
+            <p>O</p>
+            <input type="text" name="" id="player2" placeholder="Player 2">
+        </div>
+    </div>
+    
+    <button onclick="set()">Start Game</button>
+    <script>
+        function set(){
+            let p1 = document.querySelector("#player1").value;
+            let p2 = document.querySelector("#player2").value;
+            localStorage.setItem("name_p1", p1);
+            localStorage.setItem("name_p2", p2);
+            if(p1 == "" || p2 == "")
+                alert("Enter Both Player's Name");
+            else
+                window.location.href = "page2.html";
+        }
+    </script>
+</body>
+</html> 
