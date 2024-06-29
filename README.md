@@ -9,7 +9,7 @@ Welcome to my collection of frontend projects! Each project is deployed and can 
 | 01_RockPaperScissor | Basic Rock Paper Scissor game          | [Live Demo](https://rockpaperscissor-tech.vercel.app/) |
 | 02_Calculator       | A Calculator based on Apple calculator UI | [Live Demo](https://calculator-tech.vercel.app/)       |
 | 03_TicTacToe        | Tic Tac Toe Game                       | [Live Demo](https://tictactoe-tech.vercel.app/)         |
-| 04_CurrencyConverter       | Currency Converter                     | [Live Demo](https://tictactoe-tech.vercel.app/)         |
+| 04_CurrencyConverter       | Currency Converter                     | [Live Demo](https://currencyconverter-tech.netlify.app/)         |
 
 ## Projects Overview
 
