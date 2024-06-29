@@ -9,6 +9,7 @@ Welcome to my collection of frontend projects! Each project is deployed and can 
 | 01_RockPaperScissor | Basic Rock Paper Scissor game          | [Live Demo](https://rockpaperscissor-tech.vercel.app/) |
 | 02_Calculator       | A Calculator based on Apple calculator UI | [Live Demo](https://calculator-tech.vercel.app/)       |
 | 03_TicTacToe        | Tic Tac Toe Game                       | [Live Demo](https://tictactoe-tech.vercel.app/)         |
+| 04_CurrencyConverter       | Currency Converter                     | [Live Demo](https://tictactoe-tech.vercel.app/)         |
 
 ## Projects Overview
 
@@ -26,6 +27,13 @@ Welcome to my collection of frontend projects! Each project is deployed and can 
 - **Description:** A two-page responsive Tic Tac Toe game. The first page requires players' names, and the second page provides the game board and current scores.
 - **Technologies Used:** HTML and CSS are used for making responsive structures and styles, while JS is used for checking the winner at each step and for other functionalities.
 - **Live Demo:** [Link to TicTacToe](https://tictactoe-tech.vercel.app/)
+- 
+### 04_CurrencyConverter
+- **Description:** A responsive Currency Converter that allows you to select your countries and displays the value in the other currency along with their country flags.
+- **Technologies Used:** 
+  - **APIs:** Two APIs are used: one for fetching currency values and another for fetching country flags.
+  - **JavaScript:** Manages the conversion logic and updates the UI dynamically.
+- **Live Demo:** [Link to Currency Converter](https://currencyconverter-tech.netlify.app/)
 
 ## Contributing
 
